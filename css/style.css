@@ -52,6 +52,7 @@ button {
   -o-border-radius: 1rem;
   background: var(--button-background);
   color: #fff;
+  cursor: pointer;
 }
 /* ===================Header Section styles=--================
 ========================================*/
@@ -262,4 +263,142 @@ header nav .right-side-menu .sub-menu #trail-btn {
 }
 .client-section .client-brands li {
   margin-left: 5rem;
+}
+
+/* =================Our Third section styles==============================*/
+.common-section {
+  padding: 8rem 2rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+/*============== common left side styles ===================*/
+.common-section .left-side-common {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 10rem;
+}
+
+.common-section .left-side-common .number {
+  font-size: 3rem;
+  font-weight: bolder;
+  background: #12c4a0;
+  padding: 0.2rem 1.5rem;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 21%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-bottom: 2rem;
+}
+.common-section .left-side-common h2 {
+  width: 50rem;
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--main-background);
+  margin-bottom: 2rem;
+  line-height: 150%;
+}
+.common-section .left-side-common .description-common {
+  font-size: 1.5rem;
+  font-weight: 900;
+  width: 54rem;
+  line-height: 2.3rem;
+  color: #8f95a1;
+  margin-bottom: 4.5rem;
+}
+
+.common-btn {
+  background: #12c4a0;
+  padding: 1.8rem 3.4rem;
+  font-weight: 900;
+}
+/*============== common rigt side styles ===================*/
+
+.common-section .right-side-common {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.common-section .right-side-common img {
+  max-width: 105rem;
+}
+
+/* =================Our Four section styles==============================*/
+#section-four button {
+  background: var(--main-background);
+}
+
+.innovation-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10rem 2rem;
+  background: #f2f7fa;
+}
+/*============== innovention left side styles ===================*/
+.innovation-section .left-side-innovation {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.innovation-section .left-side-innovation img {
+  width: 46rem;
+  height: 37rem;
+}
+
+/*============== innovention rigt side styles ===================*/
+
+.innovation-section .right-side-innovation {
+  width: 50%;
+  height: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.innovation-section .right-side-innovation .number {
+  font-size: 3rem;
+  font-weight: bolder;
+  background: #12c4a0;
+  padding: 0.2rem 1.5rem;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 21%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-bottom: 2rem;
+}
+.innovation-section .right-side-innovation h2 {
+  width: 47rem;
+  font-size: 3rem;
+  font-weight: 900;
+  color: var(--main-background);
+  margin-bottom: 2rem;
+  line-height: 150%;
+}
+.innovation-section .right-side-innovation .description-innovation {
+  font-size: 1.5rem;
+  font-weight: 900;
+  width: 54rem;
+  line-height: 2.3rem;
+  color: #8f95a1;
+  margin-bottom: 4.5rem;
 }
