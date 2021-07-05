@@ -1,0 +1,265 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  --main-background: #080a3d;
+  --button-background: #060724;
+  --primary-button-background: #12c4a0;
+  --primary-color: #5e5e72;
+}
+h1,
+h2 {
+  font-family: "Poppins", sans-serif;
+  color: var(--main-background);
+}
+h4,
+h3 {
+  font-family: "Poppins", sans-serif;
+  color: var(--main-background);
+}
+p,
+li,
+a,
+button {
+  font-family: "Quicksand", sans-serif;
+}
+p {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  padding: 1rem 2.4rem;
+  font-size: 1.7rem;
+  border: none;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+  background: var(--button-background);
+  color: #fff;
+}
+/* ===================Header Section styles=--================
+========================================*/
+header {
+  width: 100%;
+  height: 100%;
+  padding: 0 2rem;
+  background: url(../img/bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+header nav {
+  width: 100%;
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ====================Left Side Menu ==================*/
+header nav .left-side-menu {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .left-side-menu .logo img {
+  width: 21rem;
+  height: 5.8rem;
+}
+header nav .left-side-menu .sub-menu {
+  display: flex;
+  height: inherit;
+}
+header nav .left-side-menu .sub-menu a {
+  margin-left: 4rem;
+}
+header nav .left-side-menu .sub-menu a li {
+  font-size: 1.7rem;
+  line-height: 3.6rem;
+  text-transform: capitalize;
+  font-weight: 900;
+  color: var(--primary-color);
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+header nav .left-side-menu .sub-menu a li:hover {
+  color: var(--main-background);
+}
+
+/*================ Right Side CSS style==================== */
+header nav .right-side-menu {
+  display: flex;
+  justify-content: end;
+}
+header nav .right-side-menu .sub-menu {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+header nav .right-side-menu .sub-menu a {
+  margin-right: 2rem;
+}
+header nav .right-side-menu .sub-menu a li:hover {
+  color: #d8c8ff;
+  border-color: #d8c8ff;
+}
+
+header nav .right-side-menu .sub-menu a li {
+  font-size: 1.7rem;
+  font-weight: 800;
+  padding: 1.5rem 2.8rem;
+  color: var(--primary-color);
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  border: 2px solid var(--main-background);
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
+}
+header nav .right-side-menu .sub-menu #trail-btn {
+  padding: 1.8rem 3rem;
+  font-size: 1.7rem;
+  font-weight: 800;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+/* ====================Hero Section styles=============================== */
+.main-hero-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0rem;
+  margin-top: 10rem;
+  padding-bottom: 12rem;
+}
+/* Hero left side styles */
+.main-hero-section .hero-left-side {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-hero-section .hero-left-side img {
+  width: 55rem;
+  height: 50rem;
+  margin-left: 5rem;
+  animation: float 2s linear alternate infinite;
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+}
+@keyframes float {
+  from {
+    transform: translateY(2rem);
+    -webkit-transform: translateY(2rem);
+    -moz-transform: translateY(2rem);
+    -ms-transform: translateY(2rem);
+    -o-transform: translateY(2rem);
+  }
+  to {
+    transform: translateY(0rem);
+    -webkit-transform: translateY(0rem);
+    -moz-transform: translateY(0rem);
+    -ms-transform: translateY(0rem);
+    -o-transform: translateY(0rem);
+  }
+}
+/* Hero right side styles */
+.main-hero-section .hero-right-side {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main-hero-section .hero-right-side h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  margin-bottom: 1.5rem;
+}
+.main-hero-section .hero-right-side h1 {
+  font-size: 4.5rem;
+  width: 43rem;
+  font-weight: 900;
+  color: #082161;
+  margin-bottom: 1.5rem;
+}
+.main-hero-section .hero-right-side h1 span {
+  color: #12c4a0;
+}
+.main-hero-section .hero-right-side p {
+  width: 47.4rem;
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: #79808d;
+  margin-bottom: 3.6rem;
+  line-height: 150%;
+}
+.main-hero-section .hero-right-side button {
+  padding: 2rem 3rem;
+  font-size: 1.7rem;
+  font-weight: 800;
+}
+/*=============================== Section Two styles==================
+=================================== */
+.client-section {
+  width: 100%;
+  height: 100%;
+  padding: 5rem 2rem;
+  background: #f2f7fa;
+}
+.client-section h1 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #79808d;
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.client-section .client-brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+.client-section .client-brands li img {
+  width: 12.6rem;
+}
+.client-section .client-brands li {
+  margin-left: 5rem;
+}
