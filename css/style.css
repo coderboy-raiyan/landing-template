@@ -466,3 +466,102 @@ header nav .right-side-menu .sub-menu #trail-btn {
   width: 38rem;
   height: 37rem;
 }
+
+/*============== Counter section Styles=============================== */
+.counter-section {
+  width: 100%;
+  height: 100%;
+  padding: 10rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.counter-section h1 {
+  font-size: 5rem;
+  font-weight: 900;
+  color: #ff5d2a;
+}
+.counter-section p {
+  font-size: 1.6rem;
+  color: #79808d;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+/* ========================Our Offer Section Styles================ */
+
+.offer-section {
+  width: 100%;
+  height: 100%;
+  padding: 10rem 2rem;
+  background: #f3f8fa;
+}
+.offer-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #5e5e72;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.offer-title-2 {
+  text-align: center;
+  font-size: 3.6rem;
+  color: #080a3d;
+  font-weight: 900;
+  margin-bottom: 6rem;
+  text-transform: lowercase;
+}
+.main-offer {
+  width: 85%;
+  display: flex;
+  height: 50rem;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.main-offer .offer-box-1,
+.main-offer .offer-box-2,
+.main-offer .offer-box-3,
+.main-offer .offer-box-4,
+.main-offer .offer-box-5,
+.main-offer .offer-box-6 {
+  width: 31%;
+  height: 23rem;
+  background: #12c4a0;
+  margin-bottom: 3rem;
+  padding: 4rem 3rem;
+  position: relative;
+  border-radius: 2rem;
+}
+.main-offer h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.main-offer p {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #95959b;
+  line-height: 2.5rem;
+}
+.main-offer h3 {
+  position: absolute;
+  top: -3rem;
+}
+.main-offer .offer-box-1 {
+  background: #fff6d6;
+}
+.main-offer .offer-box-2 {
+  background: #ebdcf9;
+}
+.main-offer .offer-box-3 {
+  background: #ddf5fc;
+}
+.main-offer .offer-box-4 {
+  background: #dcf6e8;
+}
+.main-offer .offer-box-5 {
+  background: #f8e4e1;
+}
+.main-offer .offer-box-6 {
+  background: #fbffd4;
+}
