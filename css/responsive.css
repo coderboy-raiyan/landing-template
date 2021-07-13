@@ -1,0 +1,278 @@
+/* ===========Mobile devices============= */
+@media only screen and (max-width: 768px) {
+  header nav {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+  }
+  /* =====left side menu====== */
+  header nav .left-side-menu {
+    width: 100%;
+    display: block;
+    order: 2;
+  }
+  header nav .left-side-menu .logo img {
+    width: 15rem;
+    height: auto;
+  }
+  header nav .left-side-menu .sub-menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  header nav .left-side-menu .sub-menu a {
+    margin-left: 3rem;
+  }
+  header nav .left-side-menu .sub-menu a li {
+    font-size: 1.3rem;
+  }
+  /* =====right side menu====== */
+  header nav .right-side-menu {
+    width: 100%;
+    order: 1;
+    margin-top: 0.4rem;
+  }
+  header nav .right-side-menu .sub-menu a li {
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+    border: 2px solid var(--main-background);
+  }
+  header nav .right-side-menu .sub-menu #trail-btn {
+    font-size: 1.3rem;
+    padding: 1rem 2rem;
+    border: 2px solid var(--main-background);
+  }
+  /* ==================My hero section============= */
+  .main-hero-section {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    margin-top: 10rem;
+    padding-bottom: 12rem;
+  }
+  /* =====hero  left side ====== */
+  .main-hero-section .hero-left-side {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  .main-hero-section .hero-left-side img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* =====hero  right side ====== */
+  .main-hero-section .hero-right-side {
+    width: 100%;
+    height: 100%;
+  }
+  .main-hero-section .hero-right-side h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  .main-hero-section .hero-right-side h1 {
+    font-size: 3rem;
+    width: 65%;
+  }
+  .main-hero-section .hero-right-side p {
+    font-size: 1.5rem;
+    width: 65%;
+  }
+  .main-hero-section .hero-right-side button {
+    padding: 2rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    width: 100%;
+  }
+  /*=============================== Section Two styles==================
+=================================== */
+  .client-section {
+    padding: 2rem 2rem;
+    background: #f2f7fa;
+    width: 100%;
+  }
+  .client-section .client-brands {
+    width: 100%;
+    padding-bottom: 3rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .client-section h1 {
+    font-size: 2rem;
+    padding: 3rem 0;
+  }
+  .client-section .client-brands li {
+    width: 30%;
+    margin-bottom: 3rem;
+    margin-left: 0;
+  }
+  .client-section .client-brands li img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* =================Our Third section styles================================
+  ========================*/
+  .common-section {
+    padding: 8rem 2rem;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  /* ============ third common left side ===========*/
+  .common-section .left-side-common {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-bottom: 4rem;
+  }
+  .common-section .left-side-common h2 {
+    font-size: 2.5rem;
+    width: 65%;
+  }
+  .common-section .left-side-common .description-common {
+    font-size: 1.4rem;
+    width: 65%;
+  }
+  .common-btn {
+    padding: 2rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+  /* ============ third common right side ===========*/
+
+  .common-section .right-side-common {
+    width: 100%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+  }
+  .common-section .right-side-common img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* =================Our Four section styles============================
+  ==================================*/
+  .innovation-section {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding: 10rem 2rem;
+    background: #f2f7fa;
+  }
+  /*============== innovention left side styles ===================*/
+  .innovation-section .left-side-innovation {
+    width: 100%;
+    height: inherit;
+  }
+  .innovation-section .left-side-innovation img {
+    max-width: 100%;
+    height: auto;
+  }
+  /*============== innovention rigt side styles ===================*/
+  .innovation-section .right-side-innovation {
+    width: 100%;
+  }
+  .innovation-section .right-side-innovation h2 {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  .innovation-section .right-side-innovation .description-innovation {
+    font-size: 1.4rem;
+    width: 65%;
+  }
+  /* =====================Scction fifth Styles========================
+  ======================== */
+  #section-fifth .upper-bg {
+    max-width: 100%;
+  }
+  #section-fifth .features-warpper {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+  }
+  /* ===============features Left styles======== */
+  .features-warpper .left-side-innovation {
+    width: 100%;
+  }
+  .features-warpper .left-side-innovation img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* ===============features right styles======== */
+  .features-warpper .right-side-innovation {
+    width: 100%;
+    margin-bottom: 6rem;
+  }
+  .features-warpper .right-side-innovation h2 {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+
+  /*============== Counter section Styles=============================
+  =========================== */
+  .counter-section {
+    width: 100%;
+    height: 100%;
+    padding: 10rem 2rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .counter-section .counter-1 {
+    margin-bottom: 2rem;
+    width: 34%;
+  }
+  .counter-section h1 {
+    font-weight: 900;
+    width: 100%;
+    color: #ff5d2a;
+    font-size: 3rem;
+  }
+  .counter-section p {
+    width: 100%;
+    font-size: 1rem;
+  }
+  /* ========================Our Offer Section Styles================ */
+  .main-offer {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .main-offer .offer-box-1,
+  .main-offer .offer-box-2,
+  .main-offer .offer-box-3,
+  .main-offer .offer-box-4,
+  .main-offer .offer-box-5,
+  .main-offer .offer-box-6 {
+    width: 75%;
+    height: 100%;
+    background: #12c4a0;
+    margin-bottom: 5rem;
+    padding: 4rem 3rem;
+    position: relative;
+    border-radius: 2rem;
+  }
+  .main-offer .offer-box-1 {
+    background: #fff6d6;
+  }
+  .main-offer .offer-box-2 {
+    background: #ebdcf9;
+  }
+  .main-offer .offer-box-3 {
+    background: #ddf5fc;
+  }
+  .main-offer .offer-box-4 {
+    background: #dcf6e8;
+  }
+  .main-offer .offer-box-5 {
+    background: #f8e4e1;
+  }
+  .main-offer .offer-box-6 {
+    background: #fbffd4;
+  }
+}
+
+/* ===========tablet devices============= */
