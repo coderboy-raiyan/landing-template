@@ -23,12 +23,13 @@ h2 {
 h4,
 h3 {
   font-family: "Poppins", sans-serif;
-  color: var(--main-background);
+  color: #080a3d;
 }
 p,
 li,
 a,
-button {
+button,
+span {
   font-family: "Quicksand", sans-serif;
 }
 p {
@@ -564,4 +565,98 @@ header nav .right-side-menu .sub-menu #trail-btn {
 }
 .main-offer .offer-box-6 {
   background: #fbffd4;
+}
+
+/*============================ Our pricng section Styles===========
+====================== */
+.pricing-section {
+  width: 100%;
+  height: 100%;
+  padding: 10rem 2rem;
+}
+.main-pricing {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.main-pricing .prices {
+  width: 32%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  padding: 2rem 1rem;
+  box-shadow: 0px 3px 15px #e9e4e4;
+  border-radius: 1rem;
+}
+.main-pricing .prices .price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+}
+.main-pricing .prices .price h3 {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  color: rgb(168, 168, 168);
+  font-weight: 600;
+}
+.main-pricing .prices .price img {
+  width: 75%;
+}
+
+.main-pricing .prices .price h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 3.6rem;
+  text-transform: uppercase;
+  color: var(--main-background);
+  font-weight: 700;
+}
+.main-pricing .prices .price .month {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+}
+.main-pricing .prices .price p {
+  width: 18rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-align: center;
+  margin-bottom: 3rem;
+  line-height: 2.8rem;
+}
+.main-pricing .prices .price button {
+  text-transform: capitalize;
+  margin-bottom: 3rem;
+}
+.main-pricing .growth {
+  height: 70rem;
+  border: 6px solid var(--main-background);
+  position: relative;
+  overflow: hidden;
+}
+.main-pricing .growth h4 {
+  position: absolute;
+  top: 3rem;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  transform: translateX(-5rem) rotate(318deg);
+  background: #080a3d;
+  color: #fff;
+  padding: 0.4rem 6rem;
+}
+.main-pricing .growth button {
+  background: var(--main-background);
 }

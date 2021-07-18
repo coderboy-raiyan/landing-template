@@ -60,6 +60,7 @@
   .main-hero-section .hero-left-side img {
     max-width: 100%;
     height: auto;
+    margin: 0;
   }
   /* =====hero  right side ====== */
   .main-hero-section .hero-right-side {
@@ -272,6 +273,32 @@
   }
   .main-offer .offer-box-6 {
     background: #fbffd4;
+  }
+
+  /*============================ Our pricng section Styles===========
+====================== */
+  .main-pricing {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+  }
+  .main-pricing .prices {
+    width: 100%;
+    height: 100%;
+  }
+  .main-pricing .prices .price img {
+    max-width: 100%;
+  }
+  .main-pricing .prices .price h3 {
+    width: 100%;
+    text-align: center;
+  }
+  .main-pricing .growth {
+    width: 100%;
+    height: 100%;
+  }
+  .main-pricing .growth h4 {
+    top: 2;
   }
 }
 
